@@ -7,4 +7,4 @@ today = dt.datetime.today().day
 os.system('echo %s|sudo -S %s' % (pwd, update))
 
 if today == 1:
-    os.system('sudo apt autoremove -y && sudo autoclean && sudo reboot')
+    os.system('sudo apt autoremove -y && sudo apt autoclean && sudo reboot')
